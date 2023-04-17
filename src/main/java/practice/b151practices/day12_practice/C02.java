@@ -1,0 +1,20 @@
+package practice.b151practices.day12_practice;
+
+public class C02 {
+
+    String isim;
+    int yas;
+    String telefon;
+
+    public C02(String isim, int yas, String telefon) {
+        this.isim=isim;
+        this.yas=yas;
+    }
+
+    public static void main(String[] args) {
+
+        C02 obj1 = new C02("Burak",32,"0246");
+        System.out.println(obj1.isim+", "+obj1.yas+", TElNO : "+ obj1.telefon);
+    }//main
+
+}//class

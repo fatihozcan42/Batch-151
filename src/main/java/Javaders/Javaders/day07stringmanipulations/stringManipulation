@@ -1,0 +1,22 @@
+                                                       String Class Methodlari
+                     String Class Methodlari
+
+1) endsWith();
+            i)  Metodu, metnin belirli bir datayla bitip bitmediğini verir.
+            ii) Bize boolean bir sonuç döndürür.
+            iii)Tek karakterde çoklu karakterde kullanılabilir.
+
+2) replace();
+             i)  Metnin icerisindeki belirli bir datanin yerine verilen diger datayi yerlestirir.
+             ii) Bize String bir data döndürür.
+             iii)Tekli (Char) karakterler ile de coklu (String) karakter ile de calisir.
+             iv) Ancak her iki tarafta da cift tirnak "" ya da her iki tarafta da tek tirnak '' kullanilmalidir.
+             v)  Bir karaker yerine birden cok karakter koyulabilir.
+             vi) Char data type'inin icerisne mutlaka bir karakter yerlestrilmeli.
+             vii)Space bir karakterdir. Ancak hiclik javada char icin kullanilmaz.
+             viii)Bu nedenle silme islemi yaparken mutlaka String kullanilmali.
+
+3) replaceAll()
+               i)  Bir grup datayi degistirmek icin kullanilir.
+               ii) Bir grup datayi ifade edebilmek icin Regular
+               iii)Expression (Regex) kullanilir
